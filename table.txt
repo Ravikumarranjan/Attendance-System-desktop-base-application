@@ -1,0 +1,9 @@
+database attendance
+
+create table teacher (id int primary key,name varchar(30),password varchar(20),technology varchar(30),image varchar(50));
+
+create table student (id varchar(10) primary key,name varchar(30),email varchar(35),status boolean);
+
+create table batch(student_id varchar(10),time varchar(10),type varchar(5),course varchar(15));
+
+
